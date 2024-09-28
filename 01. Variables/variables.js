@@ -9,9 +9,9 @@ Variables declared by var are available throughout the function in which they're
 var is not mostly used because of the issue in block scope and functional scope.
 let is more preferred over var because of its block scoping as it helps in avoiding unintentional errors
 
-We can also declare variables using the const keyword whose value can't be changed after declaration. However, if the constant is an object, then we can add, delete and update to that object
+We can also declare variables using the const keyword whose value can't be changed after declaration. 
+However, if the constant is an object, then we can add, delete and update to that object
 */
-
 var a = 12;
 const b = 15;
 let x = 25;
